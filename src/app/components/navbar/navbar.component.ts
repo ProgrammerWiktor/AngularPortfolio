@@ -28,4 +28,8 @@ export class NavbarComponent {
 
     this.previousScrollPosition = currentScrollPosition;
   }
+
+  toggleMenu(): void {
+    
+  }
 }
