@@ -6,6 +6,7 @@
   border-radius: 20px;
   background-color: $backgorundColor;
   transition: 0.3s;
+  margin: 0 auto;
 }
 
 .image-container {
@@ -39,4 +40,11 @@
 
 .container:hover .description {
   background-color: $skillItemDescriptionBackgroundColorSecond;
+}
+
+
+@media (max-width: 350px) {
+  .container {
+    width: 100%;
+  }
 }
