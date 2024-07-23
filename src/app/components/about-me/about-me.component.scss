@@ -1,4 +1,67 @@
 .about-me {
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.left {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+}
+
+.text {
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+}
+
+.right {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 18rem;
+}
+
+@media (max-width: 1000px) {
+  .left {
+    width: 60%;
+  }
+
+  .right {
+    width: 40%;
+  }
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .left {
     width: 100%;
-    height: 900px;
+  }
+
+  .right {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .image {
+    max-width: 14rem;
+  }
 }
