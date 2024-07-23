@@ -39,7 +39,7 @@ export class NavbarComponent implements OnInit {
 
     if (
       currentScrollPosition > this.previousScrollPosition &&
-      currentScrollPosition >= this.currentWindowHeight
+      currentScrollPosition >= this.currentWindowHeight - 250
     ) {
       this.showNavbar = true;
     } else if (currentScrollPosition <= this.previousScrollPosition) {
