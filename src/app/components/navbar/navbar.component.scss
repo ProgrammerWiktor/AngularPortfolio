@@ -1,55 +1,121 @@
-@import "./../../../variables.scss";
+@import './../../../variables.scss';
 
 .navbar {
   width: 100%;
   height: 4.3rem;
-  border-bottom: 1px solid white;
   background-color: $navbarBackgroundColor;
-  display: flex;
-  visibility: hidden;
-  justify-content: center;
-  position: fixed;
+  border-bottom: 1px solid white;
   z-index: 10;
+  position: fixed;
   top: -4.3rem;
+  visibility: hidden;
   transition: top 0.3s;
 }
 
-.show {
-    visibility: visible;
-    top: 0;
-}
-
-.container {
+.navbar-container {
   width: 60%;
   height: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  list-style: none;
 }
 
-.item {
+.navbar-item {
+  list-style: none;
+  margin: 1.3rem 0;
+}
+
+.navbar-item-link {
   color: $textColor;
   text-decoration: none;
-  font-weight: bold;
   font-size: 1.4rem;
+  font-weight: bold;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   transition: 0.3s;
 }
 
-.item:hover {
+.navbar-item-link:hover {
   background-color: $navbarItemBackgroundColor;
 }
 
-@media (max-width: 850px) {
-  .container {
-    width: 90%;
-  }
+.show {
+  top: 0;
+  visibility: visible;
 }
 
-@media (max-width: 600px) {
-  .item {
-    font-size: 1rem;
+
+.navbar-mobile {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.navbar-mobile-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  background-color: $navbarBackgroundColor;
+  position: absolute;
+  top: -15rem;
+  transition: top 0.3s;
+}
+
+.mobile-show {
+  top: 4.5rem;
+}
+
+.navbar-mobile-container li {
+  width: 100%;
+  height: 3.2rem;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-mobile-container li:hover {
+  cursor: pointer;
+  background-color: $navbarItemBackgroundColor;
+}
+
+.navbar-mobile-toggle-button {
+  width: 3.5rem;
+  height: 3.5rem;
+  font-size: 1.8rem;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  z-index: 2;
+}
+
+.navbar-mobile-toggle-button:hover {
+  background-color: $navbarItemBackgroundColor;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.mobile-item {
+  color: $textColor;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .navbar-item-link {
+    font-size: 1.2rem;
   }
 }

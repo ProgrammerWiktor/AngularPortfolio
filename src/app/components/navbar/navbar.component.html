@@ -1,17 +1,34 @@
-<nav class="navbar" [ngClass]="{'show': showNavbar} ">
-    <button class="menu-toggle" (click)="toggleMenu()">&#9776;</button>
-  <ul class="container">
+<nav class="navbar" *ngIf="!isMobile" [ngClass]="{'show': showNavbar}">
+  <ul class="navbar-container">
+    <li class="navbar-item">
+      <a class="navbar-item-link" href="#o-mnie">O mnie</a>
+    </li>
+    <li class="navbar-item">
+      <a class="navbar-item-link" href="#umiejetnosci">Umiejętności</a>
+    </li>
+    <li class="navbar-item">
+      <a class="navbar-item-link" href="#projekty">Projekty</a>
+    </li>
+    <li class="navbar-item">
+      <a class="navbar-item-link" href="#kontakt">Kontakt</a>
+    </li>
+  </ul>
+</nav>
+
+<nav class="navbar navbar-mobile" *ngIf="isMobile" [ngClass]="{'show': showNavbar}">
+  <button class="navbar-mobile-toggle-button" (click)="toggleMenu()">&#9776;</button>
+  <ul class="navbar-mobile-container" [ngClass]="{'mobile-show': mobileMenuIsOpen}">
     <li>
-      <a href="#o-mnie" class="item">O mnie</a>
+      <a href="#o-mnie" class="mobile-item">O mnie</a>
     </li>
     <li>
-      <a href="#umiejetnosci" class="item">Umiejętności</a>
+      <a href="#umiejetnosci" class="mobile-item">Umiejętności</a>
     </li>
     <li>
-      <a href="#projekty" class="item">Projekty</a>
+      <a href="#projekty" class="mobile-item">Projekty</a>
     </li>
     <li>
-      <a href="#kontakt" class="item">Kontakt</a>
+      <a href="#kontakt" class="mobile-item">Kontakt</a>
     </li>
   </ul>
 </nav>
