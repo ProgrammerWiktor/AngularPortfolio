@@ -1,0 +1,23 @@
+@import './../../../variables.scss';
+
+.container {
+    width: 6rem;
+    height: 7rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    padding: 0.5rem;
+}
+
+.container:hover {
+    cursor: pointer;
+    background-color: $skillItemBackgroundColorSecond;
+    transform: scale(1.1);
+}
+
+.image {
+    width: 100%;
+}

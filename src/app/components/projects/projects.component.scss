@@ -1,0 +1,25 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.language-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 750px) {
+    .language-list {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+}
