@@ -1,25 +1,25 @@
 import { Component, OnInit } from '@angular/core';
-import { SkillItemComponent } from "../skill-item/skill-item.component";
-import { AboutMeComponent } from "../about-me/about-me.component";
+import { LanguageItemComponent } from "../language-item/language-item.component";
 import { ProgrammingLanguage } from '../../../../public/interfaces/ProgrammingLanguage.interface';
 import { ProgrammingDataService } from '../../services/programming-data.service';
 import { NgFor } from '@angular/common';
 
 @Component({
-  selector: 'app-skills',
+  selector: 'app-carousel',
   standalone: true,
-  imports: [SkillItemComponent, AboutMeComponent, NgFor],
-  templateUrl: './skills.component.html',
-  styleUrl: './skills.component.scss'
+  imports: [LanguageItemComponent, NgFor],
+  templateUrl: './carousel.component.html',
+  styleUrl: './carousel.component.scss'
 })
-export class SkillsComponent implements OnInit {
+export class CarouselComponent implements OnInit {
   programmingData: ProgrammingLanguage[] = [];
 
-  constructor(private programmingDataService: ProgrammingDataService) {}
+  constructor (private programmingDataService: ProgrammingDataService) {}
 
   ngOnInit(): void {
     this.programmingDataService.getProgrammingData().subscribe(data => {
       this.programmingData = data;
-    })
+      console.log(this.programmingData);
+    });    
   }
 }

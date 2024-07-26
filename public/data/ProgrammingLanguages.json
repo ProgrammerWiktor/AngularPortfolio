@@ -1,0 +1,184 @@
+[
+    {
+        "id": 1,
+        "name": "HTML",
+        "imageSrc": "assets/programming-language-images/htmlIcon.svg",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Pierwsza strona",
+                "description": "To jest pierwsza strona jaką zrobiłem w HTML",
+                "titleImageSrc": "assets/project-image/firsSite.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "CSS",
+        "imageSrc": "assets/programming-language-images/cssIcon.svg",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Pierwsza strona z css",
+                "description": "Jakieś tam style na stronie",
+                "titleImageSrc": "assets/project-image/firsSiteCss.png"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "JavaScript",
+        "imageSrc": "assets/programming-language-images/javascriptIcon.svg",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Flappy Bird",
+                "description": "Gra Flappy Bird",
+                "titleImageSrc": "assets/project-image/flappyBird.png"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Angular",
+        "imageSrc": "assets/programming-language-images/angularIcon.svg",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Aplikacja Angular",
+                "description": "Super aplikacja Angular",
+                "titleImageSrc": "assets/project-image/angularApp.png"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "React",
+        "imageSrc": "assets/programming-language-images/reactIcon.svg",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Aplikacja React",
+                "description": "Super aplikacja React",
+                "titleImageSrc": "assets/project-image/reactApp.png"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "React Native",
+        "imageSrc": "assets/programming-language-images/reactNativeIcon.svg",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Aplikacja React",
+                "description": "Super aplikacja React",
+                "titleImageSrc": "assets/project-image/reactApp.png"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Vue",
+        "imageSrc": "assets/programming-language-images/vueIcon.svg",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Aplikacja React",
+                "description": "Super aplikacja React",
+                "titleImageSrc": "assets/project-image/reactApp.png"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "C++",
+        "imageSrc": "assets/programming-language-images/cppIcon.svg",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Aplikacja React",
+                "description": "Super aplikacja React",
+                "titleImageSrc": "assets/project-image/reactApp.png"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "C",
+        "imageSrc": "assets/programming-language-images/cIcon.svg",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Aplikacja React",
+                "description": "Super aplikacja React",
+                "titleImageSrc": "assets/project-image/reactApp.png"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Php",
+        "imageSrc": "assets/programming-language-images/phpIcon.svg",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Aplikacja React",
+                "description": "Super aplikacja React",
+                "titleImageSrc": "assets/project-image/reactApp.png"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "MySql",
+        "imageSrc": "assets/programming-language-images/mysqlIcon.svg",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Aplikacja React",
+                "description": "Super aplikacja React",
+                "titleImageSrc": "assets/project-image/reactApp.png"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "PL/SQL",
+        "imageSrc": "assets/programming-language-images/plsqlIcon.svg",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Aplikacja React",
+                "description": "Super aplikacja React",
+                "titleImageSrc": "assets/project-image/reactApp.png"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Java",
+        "imageSrc": "assets/programming-language-images/javaIcon.svg",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Aplikacja React",
+                "description": "Super aplikacja React",
+                "titleImageSrc": "assets/project-image/reactApp.png"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Python",
+        "imageSrc": "assets/programming-language-images/pythonIcon.svg",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Aplikacja React",
+                "description": "Super aplikacja React",
+                "titleImageSrc": "assets/project-image/reactApp.png"
+            }
+        ]
+    }
+]

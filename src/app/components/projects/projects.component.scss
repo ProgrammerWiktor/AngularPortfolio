@@ -17,6 +17,12 @@
     flex-wrap: wrap;
 }
 
+.choose-language-text {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
 @media (max-width: 750px) {
     .language-list {
         flex-wrap: nowrap;
