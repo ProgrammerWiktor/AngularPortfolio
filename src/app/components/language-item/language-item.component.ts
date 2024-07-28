@@ -20,7 +20,7 @@ export class LanguageItemComponent {
   }
 
   isSelected(): boolean {
-    if (this.item.name === this.programmingDataService.getSelectedItem()) {
+    if (this.item.name === this.programmingDataService.getSelectedLanguage()) {
       return true;
     } else {
       return false;

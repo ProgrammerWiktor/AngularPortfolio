@@ -1,8 +1,11 @@
 <div class="container">
-    <h2 class="title">Projekty</h2>
-    <app-carousel></app-carousel>
-    <div class="list-of-projects">
-        <app-project-item></app-project-item>
-    </div>
-    <hr class="line"/>
+  <h2 class="title">Projekty</h2>
+  <app-carousel></app-carousel>
+  <div class="list-of-projects">
+    <app-project-item
+      *ngFor="let project of filteredProjects()"
+      [item]="project"
+    ></app-project-item>
+  </div>
+  <hr class="line" />
 </div>

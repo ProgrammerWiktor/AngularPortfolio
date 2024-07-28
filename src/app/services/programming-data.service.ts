@@ -29,7 +29,7 @@ export class ProgrammingDataService {
     }
   }
 
-  getSelectedItem(): string {
+  getSelectedLanguage(): string {
     return this.selectedLanguage;
   }
 
