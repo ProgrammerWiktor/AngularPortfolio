@@ -1,23 +1,27 @@
-@import './../../../variables.scss';
+@import "./../../../variables.scss";
 
 .container {
-    width: 6rem;
-    height: 7rem;
-    border: 1px solid gray;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s;
-    padding: 0.5rem;
+  width: 6rem;
+  height: 7rem;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  padding: 0.5rem;
+}
+
+.active {
+  background-color: $itemBackgroundColorSecond;
+  transform: scale(1.1);
 }
 
 .container:hover {
-    cursor: pointer;
-    background-color: $itemBackgroundColorSecond;
-    transform: scale(1.1);
+  cursor: pointer;
+  background-color: $itemBackgroundColorSecond;
 }
 
 .image {
-    width: 100%;
+  width: 100%;
 }

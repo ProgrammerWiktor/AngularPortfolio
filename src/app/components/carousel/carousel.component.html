@@ -1,11 +1,24 @@
 <div class="container">
-    <div class="left">
-        <img class="arrow" src="assets/ui/leftArrowIcon.svg" alt="left arrow" (click)="scrollLeft()">
-    </div>
-    <div class="center" #carousel>
-        <app-language-item *ngFor="let item of programmingData" [imageLink]="item.imageSrc"></app-language-item>
-    </div>
-    <div class="right">
-        <img class="arrow" src="assets/ui/rightArrowIcon.svg" alt="right arrow" (click)="scrollRight()">
-    </div>
+  <div class="left">
+    <img
+      class="arrow"
+      src="assets/ui/leftArrowIcon.svg"
+      alt="left arrow"
+      (click)="scrollLeft()"
+    />
+  </div>
+  <div class="center" #carousel>
+    <app-language-item
+      *ngFor="let language of programmingData"
+      [item]="language"
+    ></app-language-item>
+  </div>
+  <div class="right">
+    <img
+      class="arrow"
+      src="assets/ui/rightArrowIcon.svg"
+      alt="right arrow"
+      (click)="scrollRight()"
+    />
+  </div>
 </div>

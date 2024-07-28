@@ -1,3 +1,7 @@
-<div class="container">
-    <img class="image" [src]="imageLink" />
+<div
+  class="container"
+  (click)="selectLanguage()"
+  [ngClass]="{ active: isSelected() }"
+>
+  <img class="image" [src]="item.imageSrc" />
 </div>
