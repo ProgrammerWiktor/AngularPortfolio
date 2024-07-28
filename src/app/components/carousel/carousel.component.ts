@@ -1,5 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { LanguageItemComponent } from "../language-item/language-item.component";
+import { LanguageItemComponent } from '../language-item/language-item.component';
 import { ProgrammingLanguage } from '../../../../public/interfaces/ProgrammingLanguage.interface';
 import { ProgrammingDataService } from '../../services/programming-data.service';
 import { NgFor } from '@angular/common';
@@ -9,20 +9,23 @@ import { NgFor } from '@angular/common';
   standalone: true,
   imports: [LanguageItemComponent, NgFor],
   templateUrl: './carousel.component.html',
-  styleUrl: './carousel.component.scss'
+  styleUrl: './carousel.component.scss',
 })
 export class CarouselComponent implements OnInit {
   programmingData: ProgrammingLanguage[] = [];
 
   @ViewChild('carousel', { static: true }) carousel!: ElementRef;
 
-  constructor (private programmingDataService: ProgrammingDataService) {}
+  constructor(private programmingDataService: ProgrammingDataService) {}
 
   ngOnInit(): void {
-    this.programmingDataService.getProgrammingData().subscribe(data => {
+    this.getProgrammingData();
+  }
+
+  getProgrammingData() {
+    this.programmingDataService.getProgrammingData().subscribe((data) => {
       this.programmingData = data;
-      console.log(this.programmingData);
-    });    
+    });
   }
 
   scrollLeft(): void {
