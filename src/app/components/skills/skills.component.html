@@ -1,7 +1,7 @@
 <section class="container">
   <h2 class="title">Umiejętności</h2>
   <div class="skills">
-      <app-skill-item *ngFor="let item of programmingData" [skillName]="item.name" [imageSrc]="item.imageSrc"></app-skill-item>
+      <app-skill-item *ngFor="let langauge of programmingData" [item]="langauge"></app-skill-item>
   </div>
   <hr class="line" />
 </section>

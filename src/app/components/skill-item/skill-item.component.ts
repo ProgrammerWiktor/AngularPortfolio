@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { ProgrammingLanguage } from '../../../../public/interfaces/ProgrammingLanguage.interface';
 
 @Component({
   selector: 'app-skill-item',
@@ -8,6 +9,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './skill-item.component.scss'
 })
 export class SkillItemComponent {
-  @Input() skillName !: string;
-  @Input() imageSrc !: string;
+  @Input() item!: ProgrammingLanguage;
 }
