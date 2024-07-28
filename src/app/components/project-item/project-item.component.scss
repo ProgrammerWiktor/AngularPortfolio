@@ -1,0 +1,42 @@
+@import "././../../../variables.scss";
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 1rem;
+  transition: 0.3s;
+}
+
+.container:hover {
+  background-color: $itemDescriptionBackgroundColor;
+  cursor: pointer;
+}
+
+.image-container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 0 0 10px;
+  border-right: 1px solid gray;
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about {
+  padding: 1rem;
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
