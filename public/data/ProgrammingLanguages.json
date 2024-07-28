@@ -6,9 +6,9 @@
         "projects": [
             {
                 "id": 1,
-                "name": "Pierwsza strona",
-                "description": "To jest pierwsza strona jaką zrobiłem w HTML",
-                "titleImageSrc": "assets/project-image/firsSite.png"
+                "name": "Stare portfolio",
+                "description": "",
+                "titleImageSrc": "assets/project-images/oldPortfolio.png"
             }
         ]
     },
@@ -16,14 +16,7 @@
         "id": 2,
         "name": "CSS",
         "imageSrc": "assets/programming-language-images/cssIcon.svg",
-        "projects": [
-            {
-                "id": 1,
-                "name": "Pierwsza strona z css",
-                "description": "Jakieś tam style na stronie",
-                "titleImageSrc": "assets/project-image/firsSiteCss.png"
-            }
-        ]
+        "projects": []
     },
     {
         "id": 3,
@@ -45,9 +38,9 @@
         "projects": [
             {
                 "id": 1,
-                "name": "Aplikacja Angular",
-                "description": "Super aplikacja Angular",
-                "titleImageSrc": "assets/project-image/angularApp.png"
+                "name": "Portfolio",
+                "description": "Aplikacja Portfolio, przedstawiająca moje umiejętności, projekty i inne informacje.",
+                "titleImageSrc": "assets/project-images/portfolio.png"
             }
         ]
     },
@@ -177,7 +170,7 @@
                 "id": 1,
                 "name": "Aplikacja React",
                 "description": "Super aplikacja React",
-                "titleImageSrc": "assets/project-image/reactApp.png"
+                "titleImageSrc": "assets/project-images/oldPortfolio.png"
             }
         ]
     }

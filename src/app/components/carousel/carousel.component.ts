@@ -13,6 +13,7 @@ import { NgFor } from '@angular/common';
 })
 export class CarouselComponent implements OnInit {
   programmingData: ProgrammingLanguage[] = [];
+  filteredProgrammingData: ProgrammingLanguage[] = [];
 
   @ViewChild('carousel', { static: true }) carousel!: ElementRef;
 
@@ -25,6 +26,7 @@ export class CarouselComponent implements OnInit {
   getProgrammingData() {
     this.programmingDataService.getProgrammingData().subscribe((data) => {
       this.programmingData = data;
+      this.filteredProgrammingData = this.programmingData.filter(item => item.projects.length > 0);
     });
   }
 
