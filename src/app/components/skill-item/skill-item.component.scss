@@ -25,7 +25,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 0 0 20px 20px;
-  background-color: $skillItemDescriptionBackgroundColor;
+  background-color: $itemDescriptionBackgroundColor;
 }
 
 .skill-name {
@@ -35,11 +35,11 @@
 
 .container:hover {
   transform: scale(1.05);
-  background-color: $skillItemBackgroundColorSecond;
+  background-color: $itemBackgroundColorSecond;
 }
 
 .container:hover .description {
-  background-color: $skillItemDescriptionBackgroundColorSecond;
+  background-color: $itemDescriptionBackgroundColorSecond;
 }
 
 
