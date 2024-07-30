@@ -25,9 +25,33 @@
         "projects": [
             {
                 "id": 1,
-                "name": "Flappy Bird",
+                "name": "Szybkie Pisanie",
                 "description": "Gra Flappy Bird",
-                "titleImageSrc": "assets/project-image/flappyBird.png"
+                "titleImageSrc": "assets/project-images/szybkiePisanie.png"
+            },
+            {
+                "id": 2,
+                "name": "Flappy Bird",
+                "description": "",
+                "titleImageSrc": "assets/project-images/flappyBird.png"
+            },
+            {
+                "id": 3,
+                "name": "Memory Game",
+                "description": "",
+                "titleImageSrc": "assets/project-images/memoryGame.png"
+            },
+            {
+                "id": 4,
+                "name": "Tenis",
+                "description": "",
+                "titleImageSrc": "assets/project-images/tenis.png"
+            },
+            {
+                "id": 5,
+                "name": "SnakeJS",
+                "description": "",
+                "titleImageSrc": "assets/project-images/snakeJS.png"
             }
         ]
     },
@@ -39,8 +63,26 @@
             {
                 "id": 1,
                 "name": "Portfolio",
-                "description": "Aplikacja Portfolio, przedstawiająca moje umiejętności, projekty i inne informacje.",
+                "description": "",
                 "titleImageSrc": "assets/project-images/portfolio.png"
+            },
+            {
+                "id": 2,
+                "name": "MyNotes",
+                "description": "",
+                "titleImageSrc": "assets/project-images/MyNotes.png"
+            },
+            {
+                "id": 3,
+                "name": "Showtime",
+                "description": "",
+                "titleImageSrc": "assets/project-images/showtime.png"
+            },
+            {
+                "id": 4,
+                "name": "ToDoApp",
+                "description": "",
+                "titleImageSrc": "assets/project-images/toDoApp.png"
             }
         ]
     },
@@ -51,9 +93,21 @@
         "projects": [
             {
                 "id": 1,
-                "name": "Aplikacja React",
-                "description": "Super aplikacja React",
-                "titleImageSrc": "assets/project-image/reactApp.png"
+                "name": "Food Delivery App",
+                "description": "",
+                "titleImageSrc": "assets/project-images/foodDeliveryApp.png"
+            },
+            {
+                "id": 2,
+                "name": "Expense Tracker",
+                "description": "",
+                "titleImageSrc": "assets/project-images/expenseTracker.png"
+            },
+            {
+                "id": 3,
+                "name": "Food Order App",
+                "description": "",
+                "titleImageSrc": "assets/project-images/foodOrderApp.png"
             }
         ]
     },
@@ -64,9 +118,9 @@
         "projects": [
             {
                 "id": 1,
-                "name": "Aplikacja React",
-                "description": "Super aplikacja React",
-                "titleImageSrc": "assets/project-image/reactApp.png"
+                "name": "MyFit",
+                "description": "",
+                "titleImageSrc": "assets/project-images/myFit.png"
             }
         ]
     },
@@ -77,9 +131,9 @@
         "projects": [
             {
                 "id": 1,
-                "name": "Aplikacja React",
-                "description": "Super aplikacja React",
-                "titleImageSrc": "assets/project-image/reactApp.png"
+                "name": "Remember Me",
+                "description": "",
+                "titleImageSrc": "assets/project-images/rememberMe.png"
             }
         ]
     },
@@ -87,14 +141,7 @@
         "id": 8,
         "name": "C++",
         "imageSrc": "assets/programming-language-images/cppIcon.svg",
-        "projects": [
-            {
-                "id": 1,
-                "name": "Aplikacja React",
-                "description": "Super aplikacja React",
-                "titleImageSrc": "assets/project-image/reactApp.png"
-            }
-        ]
+        "projects": []
     },
     {
         "id": 9,
@@ -103,9 +150,15 @@
         "projects": [
             {
                 "id": 1,
-                "name": "Aplikacja React",
-                "description": "Super aplikacja React",
-                "titleImageSrc": "assets/project-image/reactApp.png"
+                "name": "Snake",
+                "description": "",
+                "titleImageSrc": "assets/project-images/snake.png"
+            },
+            {
+                "id": 2,
+                "name": "Problem komiwojażera",
+                "description": "",
+                "titleImageSrc": "assets/project-images/problem_komiwojazera.png"
             }
         ]
     },
@@ -113,40 +166,19 @@
         "id": 10,
         "name": "Php",
         "imageSrc": "assets/programming-language-images/phpIcon.svg",
-        "projects": [
-            {
-                "id": 1,
-                "name": "Aplikacja React",
-                "description": "Super aplikacja React",
-                "titleImageSrc": "assets/project-image/reactApp.png"
-            }
-        ]
+        "projects": []
     },
     {
         "id": 11,
         "name": "MySql",
         "imageSrc": "assets/programming-language-images/mysqlIcon.svg",
-        "projects": [
-            {
-                "id": 1,
-                "name": "Aplikacja React",
-                "description": "Super aplikacja React",
-                "titleImageSrc": "assets/project-image/reactApp.png"
-            }
-        ]
+        "projects": []
     },
     {
         "id": 12,
         "name": "PL/SQL",
         "imageSrc": "assets/programming-language-images/plsqlIcon.svg",
-        "projects": [
-            {
-                "id": 1,
-                "name": "Aplikacja React",
-                "description": "Super aplikacja React",
-                "titleImageSrc": "assets/project-image/reactApp.png"
-            }
-        ]
+        "projects": []
     },
     {
         "id": 13,
@@ -155,9 +187,9 @@
         "projects": [
             {
                 "id": 1,
-                "name": "Aplikacja React",
-                "description": "Super aplikacja React",
-                "titleImageSrc": "assets/project-image/reactApp.png"
+                "name": "Ultimate TicTacToe",
+                "description": "",
+                "titleImageSrc": "assets/project-images/ultimateTicTacToe.png"
             }
         ]
     },
@@ -165,13 +197,6 @@
         "id": 14,
         "name": "Python",
         "imageSrc": "assets/programming-language-images/pythonIcon.svg",
-        "projects": [
-            {
-                "id": 1,
-                "name": "Aplikacja React",
-                "description": "Super aplikacja React",
-                "titleImageSrc": "assets/project-images/oldPortfolio.png"
-            }
-        ]
+        "projects": []
     }
 ]

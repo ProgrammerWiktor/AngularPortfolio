@@ -15,6 +15,7 @@
     width: 86%;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
     padding: 1rem;
     overflow-x: auto;
@@ -36,6 +37,13 @@
 .arrow {
     width: 80%;
     cursor: pointer;
+}
+
+
+@media (max-width: 1350px) {
+    .center {
+        justify-content: left;
+    }
 }
 
 @media (max-width: 800px) {
