@@ -1,34 +1,51 @@
-<nav class="navbar" *ngIf="!isMobile" [ngClass]="{'show': showNavbar}">
+<nav
+  class="navbar"
+  *ngIf="!isMobile"
+  [ngClass]="{ show: showNavbar, hide: !showNavbar }"
+>
   <ul class="navbar-container">
     <li class="navbar-item">
-      <a class="navbar-item-link" href="#o-mnie">O mnie</a>
+      <a class="navbar-item-link" href="#about-me">O mnie</a>
     </li>
     <li class="navbar-item">
-      <a class="navbar-item-link" href="#umiejetnosci">Umiejętności</a>
+      <a class="navbar-item-link" href="#skills">Umiejętności</a>
     </li>
     <li class="navbar-item">
-      <a class="navbar-item-link" href="#projekty">Projekty</a>
+      <a class="navbar-item-link" href="#projects">Projekty</a>
     </li>
     <li class="navbar-item">
-      <a class="navbar-item-link" href="#kontakt">Kontakt</a>
+      <a class="navbar-item-link" href="#contact">Kontakt</a>
     </li>
   </ul>
 </nav>
 
-<nav class="navbar navbar-mobile" *ngIf="isMobile" [ngClass]="{'show': showNavbar}">
-  <button class="navbar-mobile-toggle-button" (click)="toggleMenu()">&#9776;</button>
-  <ul class="navbar-mobile-container" [ngClass]="{'mobile-show': mobileMenuIsOpen}">
-    <li>
-      <a href="#o-mnie" class="mobile-item">O mnie</a>
-    </li>
-    <li>
-      <a href="#umiejetnosci" class="mobile-item">Umiejętności</a>
-    </li>
-    <li>
-      <a href="#projekty" class="mobile-item">Projekty</a>
-    </li>
-    <li>
-      <a href="#kontakt" class="mobile-item">Kontakt</a>
-    </li>
-  </ul>
-</nav>
+<div
+  class="navbar-mobile"
+  *ngIf="isMobile"
+  [ngClass]="{ 'navbar-mobile-show': showNavbar }"
+>
+  <div class="navbar-mobile-bar">
+    <button class="navbar-mobile-toggle" (click)="toggleMenu()">
+      {{ mobileMenuIsOpen ? "&#10005;" : "&#9776;" }}
+    </button>
+  </div>
+  <div
+    class="navbar-mobile-items"
+    [ngClass]="{ 'items-show': mobileMenuIsOpen }"
+  >
+    <ul class="navbar-mobile-items-list">
+      <li>
+        <a href="#about-me" class="mobile-item">O mnie</a>
+      </li>
+      <li>
+        <a href="#skills" class="mobile-item">Umiejętności</a>
+      </li>
+      <li>
+        <a href="#projects" class="mobile-item">Projekty</a>
+      </li>
+      <li>
+        <a href="#contact" class="mobile-item">Kontakt</a>
+      </li>
+    </ul>
+  </div>
+</div>

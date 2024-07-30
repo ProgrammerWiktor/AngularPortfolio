@@ -1,4 +1,4 @@
-@import './../../../variables.scss';
+@import "./../../../variables.scss";
 
 .navbar {
   width: 100%;
@@ -7,9 +7,7 @@
   border-bottom: 1px solid white;
   z-index: 10;
   position: fixed;
-  top: -4.3rem;
-  visibility: hidden;
-  transition: top 0.3s;
+  transition: 0.3s ease-in-out;
 }
 
 .navbar-container {
@@ -45,33 +43,76 @@
   visibility: visible;
 }
 
+.hide {
+  top: -4.3rem;
+  visibility: hidden;
+}
+
+
 
 .navbar-mobile {
   width: 100%;
-  display: flex;
-  align-items: end;
-  flex-direction: column;
+  height: 4.3rem;
+  background-color: $navbarBackgroundColor;
+  border-bottom: 1px solid white;
+  position: fixed;
+  top: -20rem;
   z-index: 10;
+  transition: 0.3s ease-in-out;
+  visibility: hidden;
 }
 
-.navbar-mobile-container {
+.navbar-mobile-bar {
   width: 100%;
+  height: 4.3rem;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
-  flex-direction: column;
-  list-style: none;
+  z-index: 9;
+  background-color: $navbarBackgroundColor;
+  position: relative;
+}
+
+.navbar-mobile-show {
+  top: 0;
+  visibility: visible;
+}
+
+.navbar-mobile-toggle {
+  width: 3.5rem;
+  height: 3.5rem;
+  font-size: 1.8rem;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  z-index: 8;
+}
+
+.navbar-mobile-toggle:hover {
+  background-color: $navbarItemBackgroundColor;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.navbar-mobile-items {
+  width: 100%;
   background-color: $navbarBackgroundColor;
   position: absolute;
-  top: -15rem;
-  transition: top 0.3s;
+  top: -10rem;
+  transition: 0.3s ease-in-out;
+  z-index: 7;
+  visibility: hidden;
 }
 
-.mobile-show {
-  top: 4.5rem;
+.items-show {
+  top: calc(4.3rem + 1px);
+  visibility: visible;
 }
 
-.navbar-mobile-container li {
+.navbar-mobile-items-list li {
   width: 100%;
   height: 3.2rem;
   text-align: center;
@@ -82,28 +123,9 @@
   transition: 0.3s;
 }
 
-.navbar-mobile-container li:hover {
+.navbar-mobile-items-list li:hover {
   cursor: pointer;
   background-color: $navbarItemBackgroundColor;
-}
-
-.navbar-mobile-toggle-button {
-  width: 3.5rem;
-  height: 3.5rem;
-  font-size: 1.8rem;
-  color: white;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  z-index: 2;
-}
-
-.navbar-mobile-toggle-button:hover {
-  background-color: $navbarItemBackgroundColor;
-  transition: 0.3s;
-  border-radius: 10px;
 }
 
 .mobile-item {
@@ -114,6 +136,8 @@
   justify-content: center;
   align-items: center;
 }
+
+
 
 @media (max-width: 900px) {
   .navbar-item-link {
