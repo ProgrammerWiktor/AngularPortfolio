@@ -1,0 +1,87 @@
+@import './../../../variables.scss';
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    margin: 1px solid blue;
+    margin: 2rem auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+.description {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.email-wrapper {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.email {
+    margin-bottom: 1rem;
+}
+
+.send-email {
+    width: 10rem;
+    background-color: $itemDescriptionBackgroundColor;
+    color: $textColor;
+    text-decoration: none;
+    padding: 2rem;
+    border-radius: 15px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.send-email:hover {
+    background-color: $itemDescriptionBackgroundColorSecond;
+    cursor: pointer;
+}
+
+.social-wrapper {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.other-contact {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.social-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-button {
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: $itemDescriptionBackgroundColor;
+    color: $textColor;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 15px;
+    transition: 0.3s;
+    margin: 1rem 0.8rem;
+}
+
+.social-button:hover {
+    cursor: pointer;
+    background-color: $itemDescriptionBackgroundColorSecond;
+}
+
+.social-button-icon {
+    width: 100%;
+}
