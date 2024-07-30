@@ -12,7 +12,6 @@
 
 .container:hover {
   background-color: $itemDescriptionBackgroundColor;
-  cursor: pointer;
 }
 
 .image-container {
@@ -55,5 +54,14 @@
 
   .title {
     font-size: 1.2rem;
+  }
+
+  .image-container {
+    width: 50%;
+  }
+
+  .about {
+    width: 50%;
+    padding-left: 0 0 0 0.8rem;
   }
 }
