@@ -1,6 +1,6 @@
 .container {
-  width: 100%;
-  margin: 2rem 0;
+  width: 90%;
+  margin: 2rem auto;
 }
 
 .left {
@@ -9,7 +9,7 @@
 }
 
 .wrapper {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
 }
@@ -38,7 +38,7 @@
 }
 
 .line {
-  width: 70%;
+  width: 90%;
   margin: 2rem auto 0 auto;
   border: 1px solid gray;
   color: white;
