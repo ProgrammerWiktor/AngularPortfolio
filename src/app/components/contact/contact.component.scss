@@ -32,11 +32,10 @@
 }
 
 .send-email {
-    width: 10rem;
     background-color: $itemDescriptionBackgroundColor;
     color: $textColor;
     text-decoration: none;
-    padding: 2rem;
+    padding: 2rem 3rem;
     border-radius: 15px;
     font-size: 1.6rem;
     font-weight: bold;
@@ -75,6 +74,9 @@
     border-radius: 15px;
     transition: 0.3s;
     margin: 1rem 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social-button:hover {
