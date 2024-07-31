@@ -7,7 +7,7 @@
             {
                 "id": 1,
                 "name": "Stare portfolio",
-                "description": "Jest to projekt starego portfolio.",
+                "description": "Jest to stara wersja portfolio przedstawiająca moje starsze projekty.",
                 "titleImageSrc": "assets/project-images/oldPortfolio.png"
             }
         ]
@@ -26,31 +26,31 @@
             {
                 "id": 1,
                 "name": "Szybkie Pisanie",
-                "description": "Gra Flappy Bird",
+                "description": "Jest to aplikacja do mierzenia szybkości pisania na klawiaturze. Pozwala na zwiększenie umiejętności szybkiego pisania użytkownika. Wyświetla też błędy i ich procentową wartość oraz pozwala na wyłączenie polskich znaków.",
                 "titleImageSrc": "assets/project-images/szybkiePisanie.png"
             },
             {
                 "id": 2,
                 "name": "Flappy Bird",
-                "description": "",
+                "description": "Jest to klasyczna gra Flappy Bird. Sterujemy w niej ptakiem, który ma za zadanie przelecieć przez przeszkody.",
                 "titleImageSrc": "assets/project-images/flappyBird.png"
             },
             {
                 "id": 3,
                 "name": "Memory Game",
-                "description": "",
+                "description": "Jest to gra, w której gracz ma chwilę na zapamiętanie kolorów, a następnie musi z pamięci odgadnąć jaki kolor gdzie leży.",
                 "titleImageSrc": "assets/project-images/memoryGame.png"
             },
             {
                 "id": 4,
                 "name": "Tenis",
-                "description": "",
+                "description": "Jest to gra tenis, w której gracz ma możliwość zagrania z komputerem. Po każdym odbiciu piłeczki, zwiększa ona swoją prędkość.",
                 "titleImageSrc": "assets/project-images/tenis.png"
             },
             {
                 "id": 5,
                 "name": "SnakeJS",
-                "description": "",
+                "description": "Jest to gra Snake, w której użytkownik stara się zdobyć jak najwięcej punktów poprzez zjadanie jabłek. Wąż nie może wyjść poza ramy gry oraz nie może najechać na swoje ciało.",
                 "titleImageSrc": "assets/project-images/snakeJS.png"
             }
         ]
@@ -63,25 +63,25 @@
             {
                 "id": 1,
                 "name": "Portfolio",
-                "description": "",
+                "description": "Projekt portfolio przedstawiający moje projekty i umiejętności.",
                 "titleImageSrc": "assets/project-images/portfolio.png"
             },
             {
                 "id": 2,
                 "name": "MyNotes",
-                "description": "",
+                "description": "Aplikacja MyNotes pozwala na zalogowanie się użytkownika i zapisywanie prostych notatek.",
                 "titleImageSrc": "assets/project-images/MyNotes.png"
             },
             {
                 "id": 3,
                 "name": "Showtime",
-                "description": "",
+                "description": "Jest to aplikacja wyświetlająca różne filmy w zależności od kategorii, które pobieranie są z zewnętrznego API.",
                 "titleImageSrc": "assets/project-images/showtime.png"
             },
             {
                 "id": 4,
                 "name": "ToDoApp",
-                "description": "",
+                "description": "Jest to aplikacja, która pozwala na dodanie rzeczy do zrobienia do listy.",
                 "titleImageSrc": "assets/project-images/toDoApp.png"
             }
         ]
@@ -94,19 +94,19 @@
             {
                 "id": 1,
                 "name": "Food Delivery App",
-                "description": "",
+                "description": "Jest to aplikacja wyświetlająca produkty, które użytkownik może zamówić. Pozwala na ich dodanie do koszyka oraz złożenie zamówienia.",
                 "titleImageSrc": "assets/project-images/foodDeliveryApp.png"
             },
             {
                 "id": 2,
                 "name": "Expense Tracker",
-                "description": "",
+                "description": "Aplikacja pozwala na dodanie wydatków co pozwala na tworzenie wykresów w podziale na miesiące.",
                 "titleImageSrc": "assets/project-images/expenseTracker.png"
             },
             {
                 "id": 3,
                 "name": "Food Order App",
-                "description": "",
+                "description": "Aplikacja korzysta z firebase do pobierania danych i składania zamówień w restauracji.",
                 "titleImageSrc": "assets/project-images/foodOrderApp.png"
             }
         ]
@@ -119,7 +119,7 @@
             {
                 "id": 1,
                 "name": "MyFit",
-                "description": "",
+                "description": "Aplikacja na telefon ułatwiająca trening. Wyświetla ćwiczenia na różne partie mięśni, pozwala wybrać poziom trudności i pokazuje użytkownikowi jak i ile ćwiczyć. Ma też mapę oraz krokomierz.",
                 "titleImageSrc": "assets/project-images/myFit.png"
             }
         ]
@@ -132,7 +132,7 @@
             {
                 "id": 1,
                 "name": "Remember Me",
-                "description": "",
+                "description": "Aplikacja pozwalająca na dodanie zasobów do listy.",
                 "titleImageSrc": "assets/project-images/rememberMe.png"
             }
         ]
@@ -151,13 +151,13 @@
             {
                 "id": 1,
                 "name": "Snake",
-                "description": "",
+                "description": "Jest to gra Snake napisana przy pomocy biblioteki Allegro. Użytkownik stara się zdobyć jak najwięcej punktów poprzez zjadanie jabłek. Wąż nie może wyjść poza ramy gry oraz nie może najechać na swoje ciało. Gra pozwala również na dodanie portali oraz utrudnienie gry poprzez jej przyśpieszenie i ustawienie przeszkód.",
                 "titleImageSrc": "assets/project-images/snake.png"
             },
             {
                 "id": 2,
                 "name": "Problem komiwojażera",
-                "description": "",
+                "description": "Apliacja pozwala na rozwiązanie problemu komiwojażera metodą brute force. Otrzymany wynik można wyświetlić dzięki wykorzystaniu biblioteki Allegro.",
                 "titleImageSrc": "assets/project-images/problem_komiwojazera.png"
             }
         ]
@@ -187,8 +187,8 @@
         "projects": [
             {
                 "id": 1,
-                "name": "Ultimate TicTacToe",
-                "description": "",
+                "name": "Ultimate Tic-Tac-Toe",
+                "description": "Jest to gra, składająca się z serwera oraz klienta gry. Ultimate Tic-Tac-Toe to zaawansowana wersja klasycznej gry w kółko i krzyżyk, która dodaje strategicznej głębi i wymaga większej uwagi od graczy.",
                 "titleImageSrc": "assets/project-images/ultimateTicTacToe.png"
             }
         ]
