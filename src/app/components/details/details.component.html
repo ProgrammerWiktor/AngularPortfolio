@@ -1,0 +1,15 @@
+<div class="backdrop" (click)="closeDetails()"></div>
+<div class="container">
+  <div class="top">
+    <button class="close" (click)="closeDetails()">
+        &#10005;
+    </button>
+  </div>
+  <div class="center">
+    <img class="image" [src]="item.titleImageSrc" alt="project image" />
+  </div>
+  <div class="bottom">
+    <p class="title">{{ item.name }}</p>
+    <p class="description">{{ item.description }}</p>
+  </div>
+</div>

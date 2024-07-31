@@ -3,7 +3,12 @@
 <main>
   <app-about-me></app-about-me>
   <app-skills></app-skills>
-  <app-projects></app-projects>
+  <app-projects (openProjectDetails)="openDetails($event)"></app-projects>
+  <app-details
+    *ngIf="projectDetailsData"
+    (close)="closeDetails()"
+    [item]="projectDetailsData"
+  ></app-details>
   <app-contact></app-contact>
 </main>
 <app-footer></app-footer>

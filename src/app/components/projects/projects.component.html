@@ -5,6 +5,7 @@
     <app-project-item
       *ngFor="let project of filteredProjects()"
       [item]="project"
+      (click)="openDetails(project)"
     ></app-project-item>
   </div>
   <hr class="line" />
