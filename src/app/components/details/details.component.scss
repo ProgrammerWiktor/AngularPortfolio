@@ -10,6 +10,11 @@
   top: 0;
   left: 0;
   overflow: hidden;
+  animation: fadeIn 0.3s forwards;
+
+  &.fade-out {
+    animation: fadeOut 0.3s forwards;
+  }
 }
 
 .container {
@@ -21,9 +26,15 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(0.5);
   background-color: $itemDescriptionBackgroundColor;
   border-radius: 14px;
+  animation: scaleIn 0.3s forwards, fadeIn 0.3s forwards;
+
+  &.scale-out {
+    animation: scaleOut 0.3s forwards, fadeOut 0.3s forwards;
+  }
+
 
   &::-webkit-scrollbar {
     width: 12px;
@@ -100,6 +111,44 @@
   font-size: 1.1rem;
   margin-top: 1rem;
 }
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.85;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 0.85;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  to {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes scaleOut {
+  from {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  to {
+    transform: translate(-50%, -50%) scale(0);
+  }
+}
+
 
 @media (max-width: 700px) {
   .close {

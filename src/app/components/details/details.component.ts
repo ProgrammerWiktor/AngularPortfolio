@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Project } from '../../../../public/interfaces/Project.interface';
 
 @Component({
@@ -13,6 +13,16 @@ export class DetailsComponent {
   @Output() close: EventEmitter<void> = new EventEmitter();
 
   closeDetails(): void {
-    this.close.emit();
+    const backdrop = document.querySelector('#backdrop');
+    const container = document.querySelector('#details-container');
+
+    if (backdrop && container) {
+      backdrop.classList.add('fade-out');
+      container.classList.add('scale-out');
+
+      backdrop.addEventListener('animationend', () => {
+        this.close.emit();
+      });
+    }
   }
 }
