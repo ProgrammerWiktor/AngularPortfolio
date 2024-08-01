@@ -52,4 +52,18 @@ export class NavbarComponent implements OnInit {
   toggleMenu(): void {
     this.mobileMenuIsOpen = !this.mobileMenuIsOpen;
   }
+
+  closeMobileMenu(): void {
+    this.mobileMenuIsOpen = false;
+
+    setTimeout(() => {
+      this.showNavbar = false;
+    }, 10);
+  }
+
+  closeMenu(): void {
+    setTimeout(() => {
+      this.showNavbar = false;
+    }, 10);
+  }
 }

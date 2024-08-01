@@ -5,16 +5,16 @@
 >
   <ul class="navbar-container">
     <li class="navbar-item">
-      <a class="navbar-item-link" href="#about-me">O mnie</a>
+      <a class="navbar-item-link" href="#about-me" (click)="closeMenu()">O mnie</a>
     </li>
     <li class="navbar-item">
-      <a class="navbar-item-link" href="#skills">Umiejętności</a>
+      <a class="navbar-item-link" href="#skills" (click)="closeMenu()">Umiejętności</a>
     </li>
     <li class="navbar-item">
-      <a class="navbar-item-link" href="#projects">Projekty</a>
+      <a class="navbar-item-link" href="#projects" (click)="closeMenu()">Projekty</a>
     </li>
     <li class="navbar-item">
-      <a class="navbar-item-link" href="#contact">Kontakt</a>
+      <a class="navbar-item-link" href="#contact" (click)="closeMenu()">Kontakt</a>
     </li>
   </ul>
 </nav>
@@ -35,16 +35,16 @@
   >
     <ul class="navbar-mobile-items-list">
       <li>
-        <a href="#about-me" class="mobile-item">O mnie</a>
+        <a href="#about-me" class="mobile-item" (click)="closeMobileMenu()">O mnie</a>
       </li>
       <li>
-        <a href="#skills" class="mobile-item">Umiejętności</a>
+        <a href="#skills" class="mobile-item" (click)="closeMobileMenu()">Umiejętności</a>
       </li>
       <li>
-        <a href="#projects" class="mobile-item">Projekty</a>
+        <a href="#projects" class="mobile-item" (click)="closeMobileMenu()">Projekty</a>
       </li>
       <li>
-        <a href="#contact" class="mobile-item">Kontakt</a>
+        <a href="#contact" class="mobile-item" (click)="closeMobileMenu()">Kontakt</a>
       </li>
     </ul>
   </div>
