@@ -68,18 +68,24 @@
             },
             {
                 "id": 2,
+                "name": "MyQuiz",
+                "description": "Aplikacja MyQuiz pozwala na wypełnianie i tworzenie quizów przez użytkowników.",
+                "titleImageSrc": "assets/project-images/MyQuiz.png"
+            },
+            {
+                "id": 3,
                 "name": "MyNotes",
                 "description": "Aplikacja MyNotes pozwala na zalogowanie się użytkownika i zapisywanie prostych notatek.",
                 "titleImageSrc": "assets/project-images/MyNotes.png"
             },
             {
-                "id": 3,
+                "id": 4,
                 "name": "Showtime",
                 "description": "Jest to aplikacja wyświetlająca różne filmy w zależności od kategorii, które pobieranie są z zewnętrznego API.",
                 "titleImageSrc": "assets/project-images/showtime.png"
             },
             {
-                "id": 4,
+                "id": 5,
                 "name": "ToDoApp",
                 "description": "Jest to aplikacja, która pozwala na dodanie rzeczy do zrobienia do listy.",
                 "titleImageSrc": "assets/project-images/toDoApp.png"
@@ -93,18 +99,12 @@
         "projects": [
             {
                 "id": 1,
-                "name": "Food Delivery App",
-                "description": "Jest to aplikacja wyświetlająca produkty, które użytkownik może zamówić. Pozwala na ich dodanie do koszyka oraz złożenie zamówienia.",
-                "titleImageSrc": "assets/project-images/foodDeliveryApp.png"
-            },
-            {
-                "id": 2,
                 "name": "Expense Tracker",
                 "description": "Aplikacja pozwala na dodanie wydatków co pozwala na tworzenie wykresów w podziale na miesiące.",
                 "titleImageSrc": "assets/project-images/expenseTracker.png"
             },
             {
-                "id": 3,
+                "id": 2,
                 "name": "Food Order App",
                 "description": "Aplikacja korzysta z firebase do pobierania danych i składania zamówień w restauracji.",
                 "titleImageSrc": "assets/project-images/foodOrderApp.png"
